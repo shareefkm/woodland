@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background: #2c6431;
+    color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+nav .navbar-nav li a{
+    color: white !important;
+}
+nav .navbar-nav li:hover{
+    background: #1b451e;
+}
+.icon span{
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 20px;
+    height: 20px;
+    margin: -14px 0 0 -8px;
+    text-align: center;
+    font-size: 12px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 1.5rem; 
+}
+nav .dropdown-menu li a{
+    color: black !important;
+}
+.d-flex i{
+    cursor: pointer;
+    border: none;
+    background: white;
+    color: black;
+}
+.icon button{
+    background: #2c6431;
+    border: none;
+    color: #fff;
+    padding: 1rem;
+}
+.icon button:hover{
+    background:#1b451e ;
+}
+.slid-img{
+    padding-top: 5rem;
+    cursor: pointer;
+}
+.selecter{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    background: black;
+    color: white;
+}
+.selecter a{
+    text-decoration: none;
+    color: white;
+}
+.selecter a:hover{
+    color: white;
+}
+.selecter span{
+    font-size: 18px;
+    display: none;
+}
+.cols:hover{
+    background: #2c6431;
+}
+.cols:hover span {
+    display: block;
+}
+.jackets{
+  position: relative;
+  text-align: center;
+  color: white;
+  background: black;
+  border-bottom: 1px solid white;
+}
+.subCol button:hover{
+    color: white;
+}
+.treck-bag img{
+    width: 100%;
+}
+.foot{
+    background: black;
+    color: white;
+    text-align: left;
+}
+.search label{
+    background:#2c6431 ;
+    cursor: pointer;
+}
+.search input{
+    background: black;
+}
+.foot li{
+    list-style: none;
+}
+.foot a{
+    text-decoration: none;
+    color: white;
+}
+.foot a:hover{
+    color: white;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .subCol{
+        color: white;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    .subCol button{
+        background: #2c6431;
+        color: #fff;
+        font: 13px;
+     }
+     .subCol h1{
+        line-height: 0.2;
+        font-weight: 300;
+        margin-left: 2.5rem;
+    }
+    .subCol h2{
+        line-height: 0.3;
+        font-weight: 200;
+    }
+    .treck-bag .subCol{
+        top: 3rem;
+    }
+    .proPlanet{
+        color: white;
+        position: absolute;
+        top: 4rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .proPlanet button{
+        background: #2c6431;
+        color: #fff;
+        font: 13px;
+    }
+    .proPlanet h1{
+        line-height: 0.2;
+        font-weight: 300;
+        margin-left: 2.5rem;
+    }
+    .proPlanet h2{
+        line-height: 0.3;
+        font-weight: 200;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .subCol{
+        color: white;
+        position: absolute;
+        top: 0.6rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    .subCol button{
+        background: #2c6431;
+        color: #fff;
+        padding: 10px;
+        font: 13px;
+        margin-top: 4%;
+     }
+     .subCol h1{
+        line-height: 0.2;
+        font-size: 3rem;
+        font-weight: 300;
+        margin-left: 2.5rem;
+    }
+    .subCol h2{
+        font-size: 2rem;
+        font-weight: 200;
+    }
+    .treck-bag .subCol{
+        top: 3rem;
+    }
+    .proPlanet{
+        color: white;
+        position: absolute;
+        top: 4rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .proPlanet button{
+        background: #2c6431;
+        color: #fff;
+        padding: 10px;
+        font: 13px;
+        margin-top: 4%;
+    }
+    .proPlanet h1{
+        line-height: 0.2;
+        font-size: 3rem;
+        font-weight: 300;
+        margin-left: 2.5rem;
+    }
+    .proPlanet h2{
+        font-size: 2rem;
+        font-weight: 200;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .subCol{
+        color: white;
+        position: absolute;
+        top: 30%;
+        text-align: end;
+        transform: translate(-50%, -50%);
+      }
+    .subCol button{
+        background: #2c6431;
+        color: white;
+        border-radius: 0;
+        padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+        font-size: x-large;
+        margin-left: 15px;
+        margin-top: 3rem
+    }
+    .subCol h1{
+        line-height: 0.2;
+        font-size: 4rem;
+        font-weight: 300;
+        margin-left: 2.5rem;
+    }
+    .subCol h2{
+        font-size: 2.6rem;
+        font-weight: 200;
+    }
+    .treck-bag .subCol{
+        top: 30%;
+    }
+    .proPlanet{
+        text-align: start;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .subCol{
+        color: white;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        text-align: end;
+        transform: translate(-50%, -50%);
+      }
+    .subCol button{
+        background: #2c6431;
+        color: white;
+        border-radius: 0;
+        padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+        font-size: x-large;
+        margin-left: 15px;
+        margin-top:3rem;
+    }
+    .subCol h1{
+        line-height: 0.2;
+        font-size: 4rem;
+        font-weight: 300;
+        margin-left: 2.5rem;
+    }
+    .subCol h2{
+        font-size: 2.6rem;
+        font-weight: 200;
+    }
+    .treck-bag .subCol{
+        top: 30%;
+    }
+    .proPlanet{
+        text-align: start;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .subCol{
+        color: white;
+        position: absolute;
+        top: 30%;
+        text-align: end;
+        transform: translate(-50%, -50%);
+      }
+    .subCol button{
+        background: #2c6431;
+        color: white;
+        border-radius: 0;
+        padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+        font-size: x-large;
+        margin-left: 15px;
+        margin-top: 3rem;
+    }
+    .subCol h1{
+        line-height: 0.2;
+        font-size: 4rem;
+        font-weight: 300;
+        margin-left: 2.5rem;
+    }
+    .subCol h2{
+        font-size: 2.6rem;
+        font-weight: 200;
+    }
+    .treck-bag .subCol{
+        top: 30%;
+    }
+    .proPlanet{
+        text-align: start;
+    }
+}
