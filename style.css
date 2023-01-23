@@ -80,7 +80,6 @@ nav .dropdown-menu li a{
   position: relative;
   text-align: center;
   color: white;
-  background: black;
   border-bottom: 1px solid white;
 }
 .subCol button:hover{
@@ -134,12 +133,12 @@ nav .dropdown-menu li a{
         font-weight: 200;
     }
     .treck-bag .subCol{
-        top: 3rem;
+        top: 3em;
     }
     .proPlanet{
         color: white;
         position: absolute;
-        top: 4rem;
+        top: 4em;
         left: 50%;
         transform: translate(-50%, -50%);
     }
